@@ -1,0 +1,15 @@
+C:\Users\stormy\Git\school projects\CarLot\bin\Debug\net6.0\CarLot.exe
+C:\Users\stormy\Git\school projects\CarLot\bin\Debug\net6.0\CarLot.deps.json
+C:\Users\stormy\Git\school projects\CarLot\bin\Debug\net6.0\CarLot.runtimeconfig.json
+C:\Users\stormy\Git\school projects\CarLot\bin\Debug\net6.0\CarLot.dll
+C:\Users\stormy\Git\school projects\CarLot\bin\Debug\net6.0\CarLot.pdb
+C:\Users\stormy\Git\school projects\CarLot\obj\Debug\net6.0\CarLot.csproj.AssemblyReference.cache
+C:\Users\stormy\Git\school projects\CarLot\obj\Debug\net6.0\CarLot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stormy\Git\school projects\CarLot\obj\Debug\net6.0\CarLot.AssemblyInfoInputs.cache
+C:\Users\stormy\Git\school projects\CarLot\obj\Debug\net6.0\CarLot.AssemblyInfo.cs
+C:\Users\stormy\Git\school projects\CarLot\obj\Debug\net6.0\CarLot.csproj.CoreCompileInputs.cache
+C:\Users\stormy\Git\school projects\CarLot\obj\Debug\net6.0\CarLot.dll
+C:\Users\stormy\Git\school projects\CarLot\obj\Debug\net6.0\refint\CarLot.dll
+C:\Users\stormy\Git\school projects\CarLot\obj\Debug\net6.0\CarLot.pdb
+C:\Users\stormy\Git\school projects\CarLot\obj\Debug\net6.0\CarLot.genruntimeconfig.cache
+C:\Users\stormy\Git\school projects\CarLot\obj\Debug\net6.0\ref\CarLot.dll
