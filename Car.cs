@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,19 +25,30 @@ namespace CarLot
 			this.Year = Year;
 			this.Price = Price;
 		}
-	 /*	public static void ListCars(List<Car> inv)
+		public static void ListCars(List<Car> inv)
 		{
-			int index = 1;
+			int index = 0;
 			foreach (Car car in inv)
 			{
 				index++;
 				Console.WriteLine(index + " " + car);
 			}
-		}*/
+		}
+		public static void Remove(List<Car> inv)
+		{
+			Console.WriteLine("which car would you like? select the index");
+			string input = Console.ReadLine();
+			int pick = int.Parse(input);
+			Console.WriteLine(inv.ElementAt(pick - 1));
+			inv.RemoveAt(pick - 1);
+			Console.WriteLine("You have bough it!");
 
+
+		}
+		
 		public override string ToString()
 		{
-			string myString = $"{Make}\t{Model}\t\t{Year}\t{Price}";
+			string myString = $"{Make}   \t{Model}      \t\t{Year}\t{Price}";
 
 			return myString;
 		}

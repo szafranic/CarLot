@@ -14,10 +14,27 @@ namespace CarLot
 		{
 			this.Mileage = Mileage;
 		}
+		public UsedCar()
+		{
+
+		}
 		public override string ToString()
 		{
 		
 			return base.ToString() +$"\t{Mileage}";
+		}
+		public void BuyBack(List<Car> carsInventory)
+		{
+			Console.WriteLine("thanks for offering your car, please enter some details");
+			string make = Console.ReadLine();
+			string model = Console.ReadLine();
+			int year = int.Parse(Console.ReadLine());
+			double mileage = double.Parse(Console.ReadLine());
+			decimal price = (year % 100) * 10 + 99.99m;
+			UsedCar buying = new(make, model, year, price, mileage);
+			carsInventory.Add(buying);
+
+
 		}
 	}
 }
