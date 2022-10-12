@@ -21,19 +21,23 @@ namespace CarLot
 		public override string ToString()
 		{
 		
-			return base.ToString() +$"\t{Mileage}";
+			return base.ToString() +$"\t{Mileage} -used-";
 		}
 		public void BuyBack(List<Car> carsInventory)
 		{
 			Console.WriteLine("thanks for offering your car, please enter some details");
+			Console.Write("Make: ");
 			string make = Console.ReadLine();
+			Console.Write("Model: ");
 			string model = Console.ReadLine();
+			Console.Write("Year: ");
 			int year = int.Parse(Console.ReadLine());
+			Console.Write("Mileage: ");
 			double mileage = double.Parse(Console.ReadLine());
-			decimal price = (year % 100) * 10 + 99.99m;
+			decimal price = (year % 100) * 1000 + 99.99m;
 			UsedCar buying = new(make, model, year, price, mileage);
 			carsInventory.Add(buying);
-
+			Console.WriteLine("alright we will be paying $"+price);
 
 		}
 	}
